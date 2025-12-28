@@ -51,7 +51,7 @@ export default function Contact() {
       <div className="contact flex w-full h-screen" ref={container}>
         <div className="col">
           <img
-            src="./portrait.jpg"
+            src="./profile.jpeg"
             alt=""
             className="w-full h-full object-cover"
           />

@@ -79,6 +79,19 @@ export default function Nav() {
             <a
               onClick={(e) => {
                 e.preventDefault();
+                router.push("/about", {
+                  onTransitionReady: slideInOut,
+                });
+              }}
+              href="/about"
+            >
+              About
+            </a>
+          </div>
+          <div className="link">
+            <a
+              onClick={(e) => {
+                e.preventDefault();
                 router.push("/contact", {
                   onTransitionReady: slideInOut,
                 });
